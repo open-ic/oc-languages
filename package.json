@@ -1,0 +1,19 @@
+{
+  "name": "oc-languages",
+  "version": "1.0.0",
+  "description": "Translations to support multi-language in OpenChat",
+  "main": "en.json",
+  "scripts": {
+    "missing": "node ./gaps.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/open-ic/oc-languages.git"
+  },
+  "author": "julian.jelfs@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/open-ic/oc-languages/issues"
+  },
+  "homepage": "https://github.com/open-ic/oc-languages#readme"
+}

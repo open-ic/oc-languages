@@ -14,4 +14,4 @@ If you can provide translations into a language that is not already covered and 
 
 For the time being I will try to keep the en.json file in line with the OpenChat original. There is a script in the repo that can be used to find any keys that are defined in the English master file but not defined in any of the language variants.
 
-To run this script just run `node ./gaps.js` from the command line at the root of the repo.
+To run this script just run `npm run missing` from the command line at the root of the repo.
