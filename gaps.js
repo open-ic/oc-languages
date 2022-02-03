@@ -5,8 +5,10 @@ const cn = require("./cn.json");
 const es = require("./es.json");
 const it = require("./it.json");
 const jp = require("./jp.json");
-const vn = require("./vn.json");
+const vi = require("./vi.json");
 const ru = require("./ru.json");
+const de = require("./de.json");
+const fr = require("./fr.json");
 
 function allKeys(map) {
   const keys = new Set();
@@ -40,12 +42,16 @@ const cnKeys = allKeys(cn);
 const esKeys = allKeys(es);
 const itKeys = allKeys(it);
 const jpKeys = allKeys(jp);
-const vnKeys = allKeys(vn);
+const viKeys = allKeys(vi);
 const ruKeys = allKeys(ru);
+const frKeys = allKeys(fr);
+const deKeys = allKeys(de);
 
 console.log("Missing chinese keys: ", missing(enKeys, cnKeys));
 console.log("Missing spanish keys: ", missing(enKeys, esKeys));
 console.log("Missing italian keys: ", missing(enKeys, itKeys));
 console.log("Missing japanese keys: ", missing(enKeys, jpKeys));
-console.log("Missing vietnamese keys: ", missing(enKeys, vnKeys));
+console.log("Missing vietnamese keys: ", missing(enKeys, viKeys));
 console.log("Missing russian keys: ", missing(enKeys, ruKeys));
+console.log("Missing french keys: ", missing(enKeys, frKeys));
+console.log("Missing german keys: ", missing(enKeys, deKeys));

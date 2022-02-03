@@ -309,5 +309,11 @@
     "phoneInvalid": "Số điện thoại không tồn tại",
     "userLimitReached": "Số lượng người dùng đã đạt giới hạn",
     "createUser": "Tạo tài khoản"
-  }
+  },
+  "tellMeMore": "Thêm thông tin",
+  "unableToRefreshAccountBalance": "Xin lỗi, chúng tôi không thể làm mới số dư tài khoản của bạn",
+  "insufficientFunds": "Vui lòng đảm bảo rằng tài khoản ở trên có số dư ít nhất là {amount} ICP để trang trải bộ nhớ được yêu cầu, sau đó nhấn nút \"Làm mới\".",
+  "noChangeToStorage": "Chọn giới hạn bộ nhớ mới bằng cách sử dụng thanh trượt ở trên để chúng tôi có thể tính giá nâng cấp cho bạn.",
+  "storageUsed": "{used} GB đã sử dụng trong số {limit} GB",
+  "unableToLoadSMSUpgrade": "Trước khi nâng cấp bộ nhớ của bạn, chúng tôi cần làm mới OpenChat. Vui lòng tải lại và thử lại."
 }

@@ -19,6 +19,7 @@
   "dependencies": {
     "@google-cloud/translate": "^6.3.1",
     "dotenv": "^16.0.0",
+    "lodash": "^4.17.21",
     "node-fetch": "^3.2.0"
   }
 }

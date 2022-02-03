@@ -1,29 +1,42 @@
 const { Translate } = require("@google-cloud/translate").v2;
+const { merge, chunk } = require("lodash");
 const fs = require("fs");
-const en = JSON.parse(fs.readFileSync("./en.json"));
 require("dotenv").config();
-
-console.log(process.env.TRANSLATE_API_KEY);
 
 const translate = new Translate({
   key: process.env.TRANSLATE_API_KEY,
 });
 
-const target = "de";
+// script to create a started language file for open chat using google translate to translate the en.json file
+const target = "es";
+const targetLang = "es";
+
+const enData = JSON.parse(fs.readFileSync("./en.json"));
+let targetData = {};
+try {
+  targetData = JSON.parse(fs.readFileSync(`./${target}.json`));
+} catch (err) {
+  console.log(`No file found for ${target} - generating a new one`);
+}
+
+function missingEntries(enEntries, targetEntries) {
+  const missing = [];
+  enEntries.forEach(([k, v]) => {
+    if (targetEntries.find(([tk]) => tk === k) === undefined) {
+      missing.push([k, v]);
+    }
+  });
+  return missing;
+}
 
 async function translateText() {
-  const flat = flatten(en);
-  const entries = Object.entries(flat);
-  const size = 50;
-  const chunks = [];
+  const enEntries = Object.entries(flatten(enData));
+  const targetEntries = Object.entries(flatten(targetData));
+  const missing = missingEntries(enEntries, targetEntries);
+  console.log(missing);
 
-  for (let i = 0; i < entries.length; i += size) {
-    chunks.push(entries.slice(i, i + size));
-  }
-
-  console.log(chunks.length);
   const translated = await Promise.all(
-    chunks.map(async (chunk) => {
+    chunk(missing, 50).map(async (chunk) => {
       const translatedChunk = await translateBatch(chunk.map(([, v]) => v));
       const translatedArr = translatedChunk.map((val, i) => {
         return [chunk[i][0], val];
@@ -42,11 +55,13 @@ async function translateText() {
     };
   }, {});
 
-  return unflatten(merged);
+  const unflattened = unflatten(merged);
+  return merge(targetData, unflattened);
 }
 
 async function translateBatch(values) {
-  let [translations] = await translate.translate(values, target);
+  console.log("Values: ", values);
+  let [translations] = await translate.translate(values, targetLang);
   return Array.isArray(translations) ? translations : [translations];
 }
 
