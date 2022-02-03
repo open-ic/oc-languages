@@ -124,7 +124,7 @@
   "toggleMuteNotificationsFailed": "推送通知无法 {operation}",
   "toggleMuteNotificationsSucceeded": "推送通知成功 {operation}",
   "filterParticipants": "筛选群成员",
-  "markAllRead": "标记已读",
+  "markAllRead": "标记为已读",
   "publicGroupWithN": "{number} 群成员在公开群聊中",
   "privateGroupWithN": "{number} 群成员在私有群聊中",
   "groupWithN": "{number} 位群成员",
