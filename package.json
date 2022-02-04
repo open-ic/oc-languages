@@ -4,7 +4,8 @@
   "description": "Translations to support multi-language in OpenChat",
   "main": "en.json",
   "scripts": {
-    "missing": "node ./gaps.js"
+    "missing": "node ./gaps.js",
+    "generate": "node ./generate.js"
   },
   "repository": {
     "type": "git",
