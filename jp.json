@@ -340,5 +340,11 @@
   "roleChanged": "{changedBy}は、{changed}の役割を{oldRole}から{newRole}に変更しました",
   "yourRoleChanged": "{changedBy}が役割を{oldRole}から{newRole}に変更しました",
   "participant": "参加者",
-  "viewer": "ビューア"
+  "viewer": "ビューア",
+  "pinMessage": "ピンメッセージ",
+  "unpinMessage": "メッセージの固定を解除する",
+  "showPinned": "固定されたメッセージを表示する",
+  "pinnedMessages": "固定されたメッセージ",
+  "pinMessageFailed": "メッセージを固定できません",
+  "unpinMessageFailed": "メッセージの固定を解除できません"
 }

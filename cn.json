@@ -340,5 +340,11 @@
   "roleChanged": "{changedBy} 将 {changed} 的角色从 {oldRole} 更改为 {newRole}",
   "yourRoleChanged": "{changedBy} 将您的角色从 {oldRole} 更改为 {newRole}",
   "participant": "参与者",
-  "viewer": "观众"
+  "viewer": "观众",
+  "pinMessage": "固定消息",
+  "unpinMessage": "取消固定消息",
+  "showPinned": "显示固定消息",
+  "pinnedMessages": "固定消息",
+  "pinMessageFailed": "无法固定消息",
+  "unpinMessageFailed": "无法取消固定消息"
 }

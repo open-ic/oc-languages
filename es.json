@@ -341,5 +341,11 @@
   "roleChanged": "{changedBy} cambió el rol de {changed} de {oldRole} a {newRole}",
   "yourRoleChanged": "{changedBy} cambió su rol de {oldRole} a {newRole}",
   "participant": "partícipe",
-  "viewer": "espectador"
+  "viewer": "espectador",
+  "pinMessage": "Pin mensaje",
+  "unpinMessage": "Desanclar mensaje",
+  "showPinned": "Mostrar mensajes anclados",
+  "pinnedMessages": "Mensajes fijados",
+  "pinMessageFailed": "No se puede anclar el mensaje",
+  "unpinMessageFailed": "No se puede desanclar el mensaje"
 }

@@ -341,5 +341,11 @@
   "roleChanged": "{changeBy} đã thay đổi vai trò của {change} từ {oldRole} thành {newRole}",
   "yourRoleChanged": "{changeBy} đã thay đổi vai trò của bạn từ {oldRole} thành {newRole}",
   "participant": "người tham gia",
-  "viewer": "người xem"
+  "viewer": "người xem",
+  "pinMessage": "Ghim tin nhắn",
+  "unpinMessage": "Bỏ ghim tin nhắn",
+  "showPinned": "Hiển thị tin nhắn đã ghim",
+  "pinnedMessages": "Tin nhắn đã ghim",
+  "pinMessageFailed": "Không thể ghim tin nhắn",
+  "unpinMessageFailed": "Không thể bỏ ghim tin nhắn"
 }

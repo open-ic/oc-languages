@@ -340,5 +340,11 @@
   "roleChanged": "{changedBy} ha cambiato il ruolo di {changed} da {oldRole} a {newRole}",
   "yourRoleChanged": "{changedBy} ha cambiato il tuo ruolo da {oldRole} a {newRole}",
   "participant": "partecipante",
-  "viewer": "spettatore"
+  "viewer": "spettatore",
+  "pinMessage": "Appuntare il messaggio",
+  "unpinMessage": "Sblocca messaggio",
+  "showPinned": "Mostra i messaggi bloccati",
+  "pinnedMessages": "Messaggi appuntati",
+  "pinMessageFailed": "Impossibile bloccare il messaggio",
+  "unpinMessageFailed": "Impossibile sbloccare il messaggio"
 }

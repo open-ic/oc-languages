@@ -340,5 +340,11 @@
   "roleChanged": "{changedBy} изменил роль {changed} с {oldRole} на {newRole}",
   "yourRoleChanged": "{changedBy} изменил вашу роль с {oldRole} на {newRole}",
   "participant": "участник",
-  "viewer": "зритель"
+  "viewer": "зритель",
+  "pinMessage": "Закрепить сообщение",
+  "unpinMessage": "Открепить сообщение",
+  "showPinned": "Показать закрепленные сообщения",
+  "pinnedMessages": "Закрепленные сообщения",
+  "pinMessageFailed": "Не удалось закрепить сообщение",
+  "unpinMessageFailed": "Не удалось открепить сообщение"
 }

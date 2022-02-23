@@ -340,5 +340,11 @@
   "roleChanged": "{changedBy} hat die Rolle von {changed} von {oldRole} zu {newRole} geändert",
   "yourRoleChanged": "{changedBy} hat Ihre Rolle von {oldRole} zu {newRole} geändert",
   "participant": "Teilnehmer",
-  "viewer": "Zuschauer"
+  "viewer": "Zuschauer",
+  "pinMessage": "Pin-Nachricht",
+  "unpinMessage": "Nachricht loslösen",
+  "showPinned": "Gepinnte Nachrichten anzeigen",
+  "pinnedMessages": "Gepinnte Nachrichten",
+  "pinMessageFailed": "Nachricht kann nicht angeheftet werden",
+  "unpinMessageFailed": "Nachricht kann nicht gelöst werden"
 }

@@ -340,5 +340,11 @@
   "roleChanged": "{changedBy} a changé le rôle de {changed} de {oldRole} à {newRole}",
   "yourRoleChanged": "{changedBy} a changé votre rôle de {oldRole} à {newRole}",
   "participant": "participant",
-  "viewer": "téléspectateur"
+  "viewer": "téléspectateur",
+  "pinMessage": "Épingler le message",
+  "unpinMessage": "Détacher le message",
+  "showPinned": "Afficher les messages épinglés",
+  "pinnedMessages": "Messages épinglés",
+  "pinMessageFailed": "Impossible d'épingler le message",
+  "unpinMessageFailed": "Impossible de désépingler le message"
 }
