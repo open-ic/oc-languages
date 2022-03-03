@@ -68,17 +68,18 @@ async function generateLanguage(lang, code) {
 
   function unflatten(flat) {
     return Object.entries(flat).reduce((agg, [k, v]) => {
-      const dot = k.indexOf(".");
-      if (dot >= 0) {
-        const prefix = k.slice(0, dot);
-        const suffix = k.slice(dot + 1);
-        if (agg[prefix] === undefined) {
-          agg[prefix] = {};
+      const segments = k.split(".");
+      segments.reduce((agg_, segment, i) => {
+        if (i == segments.length - 1) {
+          agg_[segment] = v;
+          return agg_;
+        } else {
+          if (agg_[segment] === undefined) {
+            agg_[segment] = {};
+          }
+          return agg_[segment];
         }
-        agg[prefix][suffix] = v;
-      } else {
-        agg[k] = v;
-      }
+      }, agg);
       return agg;
     }, {});
   }
