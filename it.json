@@ -1,6 +1,6 @@
 {
   "openChat": "OpenChat",
-  "home": "casa",
+  "home": "Home",
   "tellMeMore": "Maggiori informazioni",
   "inheritSystem": "Eredita il tema del sistema",
   "enterToSend": "Il tasto Invio invia il messaggio",
@@ -45,7 +45,7 @@
   "light": "luce",
   "original": "originale",
   "appearance": "Aspetto esteriore",
-  "chats": "Gatti",
+  "chats": "Chat",
   "account": "Account",
   "whatsHot": "Cosa c'è di nuovo?",
   "notInterested": "Non interessato",
