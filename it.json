@@ -447,5 +447,8 @@
   "searchChat": "Ricerca",
   "search": "Ricerca...",
   "offline": "disconnesso",
-  "sendTo": "Inviare a..."
+  "sendTo": "Inviare a...",
+  "copyMessageUrl": "Copia l'URL del messaggio",
+  "messageUrlCopiedToClipboard": "URL del messaggio copiato negli appunti!",
+  "failedToShareMessage": "Impossibile condividere questo messaggio"
 }
