@@ -102,7 +102,7 @@ async function generateLanguage(lang, code) {
   }
 
   await translateText().then((translated) => {
-    fs.writeFileSync(`./${target}.json`, JSON.stringify(translated, null, 2));
+    fs.writeFileSync(`./${target}.json`, JSON.stringify(translated, null, 4));
   });
 }
 
