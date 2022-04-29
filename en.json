@@ -117,6 +117,7 @@
     "deleteGroupSuccess": "Group successfully deleted",
     "deleteGroupFailure": "Unable to delete group",
     "irreversible": "Do you definitely want to delete this group? This cannot be undone!",
+    "typeGroupName": "Please type **{name}** to confirm.",
     "confirmLeaveGroup": "Do you really want to leave this group?",
     "directChatCreatedAt": "chat started",
     "skip": "Skip",
@@ -409,7 +410,8 @@
             "createPolls": "create polls",
             "sendMessages": "send messages",
             "reactToMessages": "react to messages"
-        }
+        },
+        "advanced": "Advanced"
     },
     "updateNow": "reload now",
     "updateRequired": "A new version of OpenChat is available - reloading in {countdown}s",
@@ -477,5 +479,9 @@
         "reactions": "reactions",
         "deletedMessages": "deleted messages"
     },
-    "andNMore": ", and {n} more"
+    "andNMore": ", and {n} more",
+    "confirmMakeGroupPrivate": "Do you definitely want to make this group private? Currently this operation cannot be reversed!",
+    "makeGroupPrivate": "Make group private",
+    "makeGroupPrivateFailed": "Failed to make group private",
+    "groupVisibilityChangedBy": "{changedBy} made the group {visibility}"
 }
