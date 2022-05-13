@@ -128,7 +128,6 @@
     "ownershipTransferredBy": "{changedBy} ha trasferito la proprietà del gruppo a {changed} 🎉",
     "historyVisible": "cronologia chat visibile",
     "historyOnInfo": "La cronologia completa della chat sarà visibile ai nuovi iscritti. Attento ora! 🤐",
-    "historyOffInfo": "Rilassati: i nuovi iscritti vedranno i messaggi in arrivo solo dopo l'adesione. 🤫",
     "privateGroupInfo": "Questo gruppo sarà limitato alle persone che scegli.",
     "publicGroupUnique": "I nomi dei gruppi pubblici devono essere univoci.",
     "publicGroupInfo": "Chiunque potrà scoprire e unirsi a questo gruppo.",
@@ -213,7 +212,6 @@
     "yesterday": "Ieri",
     "chatNotFound": "Spiacenti, non siamo riusciti a trovare la chat selezionata",
     "leftGroup": "Hai lasciato con successo il gruppo",
-    "failedToLeaveGroup": "Si è verificato un errore durante la digitazione per rimuoverti dal gruppo",
     "lastAdmin": "Non puoi lasciare il gruppo perché sei l'unico amministratore",
     "ownerCantLeave": "Devi trasferire la proprietà prima di poter lasciare il gruppo",
     "owner": "proprietario",
@@ -250,7 +248,9 @@
         "send_icp_q": "Perché mi viene addebitata una commissione di transazione quando invio ICP?",
         "send_icp_a": "Quando si invia ICP come messaggio di chat, il trasferimento viene eseguito dal registro ICP che comporta una commissione obbligatoria di 0,0001 ICP. Questa commissione viene bruciata come parte del protocollo IC e non viene ricevuta da nessuna parte.",
         "icp_account_q": "Come funziona il mio conto ICP?",
-        "icp_account_a": "Quando viene creato un utente OpenChat, creiamo automaticamente un account ICP. Questo account sarà inizialmente vuoto. Puoi ricaricare il conto trasferendo ICP al suo indirizzo. Se non sai come acquistare ICP, [questo articolo](https://www.finder.com/uk/how-to-buy-internet-computer) potrebbe aiutarti. Una volta che hai dell'ICP nel tuo account OpenChat, sarai in grado di inviarlo direttamente all'account di qualsiasi altro utente OpenChat tramite un tipo speciale di messaggio. Puoi anche utilizzare l'ICP dal tuo account OpenChat per aggiornare lo spazio di archiviazione fino a 1 GB in totale. Se desideri ritirare l'ICP dal tuo account ICP OpenChat, puoi farlo andando nella sezione Account del tuo profilo utente e facendo clic sul pulsante \"Gestisci\". Questa schermata ti dà la possibilità di prelevare il tuo saldo ICP OpenChat a qualsiasi altro indirizzo di tua scelta."
+        "icp_account_a": "Quando viene creato un utente OpenChat, creiamo automaticamente un account ICP. Questo account sarà inizialmente vuoto. Puoi ricaricare il conto trasferendo ICP al suo indirizzo. Se non sai come acquistare ICP, [questo articolo](https://www.finder.com/uk/how-to-buy-internet-computer) potrebbe aiutarti. Una volta che hai dell'ICP nel tuo account OpenChat, sarai in grado di inviarlo direttamente all'account di qualsiasi altro utente OpenChat tramite un tipo speciale di messaggio. Puoi anche utilizzare l'ICP dal tuo account OpenChat per aggiornare lo spazio di archiviazione fino a 1 GB in totale. Se desideri ritirare l'ICP dal tuo account ICP OpenChat, puoi farlo andando nella sezione Account del tuo profilo utente e facendo clic sul pulsante \"Gestisci\". Questa schermata ti dà la possibilità di prelevare il tuo saldo ICP OpenChat a qualsiasi altro indirizzo di tua scelta.",
+        "shortcuts_a": "Sono disponibili diversi comandi di scelta rapida che è possibile utilizzare dalla casella di immissione del messaggio. <br /><br /> `/poll` - per creare un nuovo sondaggio <br /> `/search xyz` - per cercare nella chat corrente il termine \"xyz\" <br />`/gif gattini` - per cerca le gif dei gattini <br />`/icp 0.1` - per inviare 0.1 ICP a qualcuno <br />`/faq question_id*` - per creare e pubblicare un collegamento formattato a una specifica domanda di FAQ <br /><br /> I comandi che accettano un argomento possono essere utilizzati anche senza l'argomento.<br /><br />* Gli ID delle domande frequenti disponibili sono: ios_app, android_app, find_groups, style_messages, sms_icp, airdrop, security, send_icp, icp_account, roadmap, shortcuts",
+        "shortcuts_q": "Quali comandi rapidi sono disponibili?"
     },
     "roadmap": "Tabella di marcia",
     "here": "qui",
@@ -397,9 +397,32 @@
             "pinMessages": "appuntare i messaggi",
             "createPolls": "creare sondaggi",
             "sendMessages": "Manda messaggi",
-            "reactToMessages": "reagire ai messaggi"
+            "reactToMessages": "reagire ai messaggi",
+            "inviteUsers": "invitare gli utenti",
+            "notPermitted": "Non sei autorizzato a {permission}"
         },
-        "advanced": "Avanzate"
+        "advanced": "Avanzate",
+        "invite": {
+            "inviteWithLink": "Invita al gruppo tramite link",
+            "enableLink": "Abilita collegamento",
+            "resetLink": "Ripristina collegamento",
+            "errorGettingLink": "Impossibile ottenere il collegamento",
+            "errorEnablingLink": "Impossibile abilitare il collegamento",
+            "errorDisablingLink": "Impossibile disabilitare il collegamento",
+            "errorResettingLink": "Impossibile ripristinare il collegamento",
+            "confirmReset": "Sei sicuro di voler reimpostare il collegamento del gruppo? Le persone non potranno più unirsi al gruppo utilizzando il collegamento corrente.",
+            "shareMessage": "Chiunque abbia questo collegamento può visualizzare in anteprima e unirsi al gruppo.",
+            "shareMessageTrust": "Condividilo con le persone di cui ti fidi.",
+            "linkCopiedToClipboard": "Link copiato negli appunti",
+            "failedToCopyLinkToClipboard": "Impossibile copiare il collegamento negli appunti",
+            "enabled": "abilitato",
+            "disabled": "Disabilitato",
+            "reset": "Ripristina"
+        },
+        "welcome": "Benvenuto a",
+        "historyPrivateMessage": "I vecchi messaggi non sono visibili ai nuovi membri",
+        "privateGroupInfo": "Gli utenti non possono unirsi a questo gruppo liberamente. Devono essere aggiunti o invitati da un membro autorizzato.",
+        "permissionsUpdateFailed": "Aggiornamento delle autorizzazioni non riuscito"
     },
     "updateNow": "ricarica ora",
     "updateRequired": "È disponibile una nuova versione di OpenChat, che si ricarica tra {countdown}s",
@@ -485,5 +508,23 @@
     "makeGroupPrivate": "Rendi il gruppo privato",
     "makeGroupPrivateFailed": "Impossibile rendere privato il gruppo",
     "groupVisibilityChangedBy": "{changedBy} ha fatto il gruppo {visibility}",
-    "typeGroupName": "Digita **{name}** per confermare."
+    "typeGroupName": "Digita **{name}** per confermare.",
+    "translateMessage": "Tradurre",
+    "untranslateMessage": "Annulla la traduzione",
+    "unableToTranslate": "Impossibile tradurre",
+    "premium": {
+        "title": "Funzionalità premium",
+        "blurb": "Alcune funzionalità di OpenChat sono disponibili solo per gli account premium. Puoi aggiornare il tuo account verificando un numero di telefono tramite SMS o pagando una piccola commissione ICP.",
+        "congratulations": "Ora puoi goderti le nostre funzionalità premium!"
+    },
+    "faqUrlCopiedToClipboard": "URL delle domande frequenti copiato negli appunti!",
+    "thisIsPublicGroupWithN": "Questo è un gruppo pubblico con {number} membri",
+    "thisIsPrivateGroupWithN": "Questo è un gruppo privato con {number} membri",
+    "copy": "copia",
+    "failedToShareLink": "Impossibile condividere il collegamento",
+    "groupInviteChangedBy": "{changedBy} {changed} l'invito del gruppo",
+    "failedToLeaveGroup": "Si è verificato un errore durante il tentativo di rimuoverti dal gruppo",
+    "historyOffInfo": "I nuovi iscritti vedranno i messaggi in arrivo solo dopo l'adesione. 🤫",
+    "memberIsTyping": "{username} sta digitando",
+    "membersAreTyping": "{number} membri stanno digitando"
 }

@@ -98,7 +98,6 @@
     "ownershipTransferredBy": "{changedBy} 将群主转交给 {changed} 🎉",
     "historyVisible": "可见的聊天记录",
     "historyOnInfo": "请注意，新入群的用户可以看见全部的聊天记录 🤐",
-    "historyOffInfo": "新入群的用户不能查看历史消息 🤫",
     "privateGroupInfo": "此群仅对指定成员可见",
     "publicGroupUnique": "公开群聊的名字不可与其他群聊重复",
     "publicGroupInfo": "任何人都可以搜索和加入此群",
@@ -183,7 +182,6 @@
     "yesterday": "昨天",
     "chatNotFound": "抱歉 - 找不到该群",
     "leftGroup": "您已离开该群聊",
-    "failedToLeaveGroup": "离开群聊失败",
     "lastAdmin": "您是唯一的管理员，所以离开群聊失败",
     "ownerCantLeave": "您必须在离开群聊之前转交群主",
     "owner": "群主",
@@ -322,7 +320,9 @@
         "send_icp_q": "为什么我在发送 ICP 时要收取交易费？",
         "send_icp_a": "将 ICP 作为聊天消息发送时，由 ICP 账本执行转账，这会产生 0.0001 ICP 的强制性费用。这笔费用作为 IC 协议的一部分被烧毁，任何一方都不会收到。",
         "icp_account_q": "我的 ICP 账户如何运作？",
-        "icp_account_a": "创建 OpenChat 用户时，我们会自动创建一个 ICP 帐户。此帐户最初将为空。您可以通过将ICP转移到其地址来为帐户充值。如果您不知道如何购买 ICP，[本文](https://www.finder.com/uk/how-to-buy-internet-computer) 可能会对您有所帮助。一旦您的 OpenChat 帐户中有一些 ICP，您就可以通过特殊类型的消息将其直接发送到任何其他 OpenChat 用户的帐户。您还可以使用 OpenChat 帐户中的 ICP 将您的存储空间升级到总共 1GB。如果您想从您的 OpenChat ICP 帐户中提取 ICP，您可以通过转到您的用户配置文件的“帐户”部分并单击“管理”按钮来执行此操作。此屏幕让您可以选择将您的 OpenChat ICP 余额提取到您选择的任何其他地址。"
+        "icp_account_a": "创建 OpenChat 用户时，我们会自动创建一个 ICP 帐户。此帐户最初将为空。您可以通过将ICP转移到其地址来为帐户充值。如果您不知道如何购买 ICP，[本文](https://www.finder.com/uk/how-to-buy-internet-computer) 可能会对您有所帮助。一旦您的 OpenChat 帐户中有一些 ICP，您就可以通过特殊类型的消息将其直接发送到任何其他 OpenChat 用户的帐户。您还可以使用 OpenChat 帐户中的 ICP 将您的存储空间升级到总共 1GB。如果您想从您的 OpenChat ICP 帐户中提取 ICP，您可以通过转到您的用户配置文件的“帐户”部分并单击“管理”按钮来执行此操作。此屏幕让您可以选择将您的 OpenChat ICP 余额提取到您选择的任何其他地址。",
+        "shortcuts_a": "您可以从消息输入框中使用几个快捷命令。 <br /><br /> `/poll` - 创建一个新的投票 <br /> `/search xyz` - 在当前聊天中搜索术语“xyz” <br />`/gif kittens` - 到搜索小猫 gif <br />`/icp 0.1` - 向某人发送 0.1 ICP <br />`/faq question_id*` - 创建并发布指向特定常见问题解答问题的格式化链接<br /><br /> 接受参数的命令也可以不带参数使用。<br /><br />* 可用的常见问题 ID 为：ios_app、android_app、find_groups、style_messages、sms_icp、airdrop、security、send_icp、icp_account、roadmap、shortcuts",
+        "shortcuts_q": "哪些快捷命令可用？"
     },
     "roadmap": "路线图",
     "roleChanged": "{changedBy} 将 {changed} 的角色从 {oldRole} 更改为 {newRole}",
@@ -397,9 +397,32 @@
             "pinMessages": "固定消息",
             "createPolls": "创建民意调查",
             "sendMessages": "发送信息",
-            "reactToMessages": "对消息做出反应"
+            "reactToMessages": "对消息做出反应",
+            "inviteUsers": "邀请用户",
+            "notPermitted": "您无权{permission}"
         },
-        "advanced": "先进的"
+        "advanced": "先进的",
+        "invite": {
+            "inviteWithLink": "通过链接邀请加入群组",
+            "enableLink": "启用链接",
+            "resetLink": "重置链接",
+            "errorGettingLink": "无法获取链接",
+            "errorEnablingLink": "无法启用链接",
+            "errorDisablingLink": "无法禁用链接",
+            "errorResettingLink": "无法重置链接",
+            "confirmReset": "您确定要重置群组链接吗？人们将无法再使用当前链接加入群组。",
+            "shareMessage": "知道此链接的任何人都可以预览和加入群组。",
+            "shareMessageTrust": "与您信任的人分享。",
+            "linkCopiedToClipboard": "链接已复制到剪贴板",
+            "failedToCopyLinkToClipboard": "无法将链接复制到剪贴板",
+            "enabled": "启用",
+            "disabled": "禁用",
+            "reset": "重启"
+        },
+        "welcome": "欢迎来到",
+        "historyPrivateMessage": "旧消息对新成员不可见",
+        "privateGroupInfo": "用户不能自由加入该群组。他们必须由授权成员添加或邀请。",
+        "permissionsUpdateFailed": "权限更新失败"
     },
     "updateNow": "现在重新加载",
     "updateRequired": "新版本的 OpenChat 可用 - 在 {countdown} 秒内重新加载",
@@ -485,5 +508,23 @@
     "makeGroupPrivate": "将群组设为私有",
     "makeGroupPrivateFailed": "无法将群组设为私有",
     "groupVisibilityChangedBy": "{changedBy} 组 {visibility}",
-    "typeGroupName": "请输入 **{name}** 进行确认。"
+    "typeGroupName": "请输入 **{name}** 进行确认。",
+    "translateMessage": "翻译",
+    "untranslateMessage": "取消翻译",
+    "unableToTranslate": "无法翻译",
+    "premium": {
+        "title": "高级功能",
+        "blurb": "某些 OpenChat 功能仅适用于高级帐户。您可以通过短信验证电话号码或支付少量 ICP 费用来升级您的帐户。",
+        "congratulations": "您现在可以享受我们的高级功能了！"
+    },
+    "faqUrlCopiedToClipboard": "常见问题网址已复制到剪贴板！",
+    "thisIsPublicGroupWithN": "这是一个拥有 {number} 成员的公共群组",
+    "thisIsPrivateGroupWithN": "这是一个有 {number} 成员的私人群组",
+    "copy": "复制",
+    "failedToShareLink": "分享链接失败",
+    "groupInviteChangedBy": "{changedBy} {changed} 群组邀请",
+    "failedToLeaveGroup": "尝试将您从群组中移除时出错",
+    "historyOffInfo": "新加入者只会看到他们加入后到达的消息。 🤫",
+    "memberIsTyping": "{username} 正在输入",
+    "membersAreTyping": "{number} 成员正在输入"
 }
