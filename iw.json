@@ -49,8 +49,6 @@
     "account": "חֶשְׁבּוֹן",
     "whatsHot": "מה לוהט?",
     "notInterested": "לא מעוניין",
-    "recommendSomething": "ממליץ על כמה קבוצות",
-    "noRecommendations": "אין המלצות 😭",
     "checkBackLater": "בבקשה נסה שוב מאוחר יותר.",
     "refresh": "לְרַעֲנֵן",
     "goHome": "בית",
@@ -94,7 +92,6 @@
     "change": "שינוי",
     "noChatSelected": "לא נבחר צ'אט כרגע",
     "selectAChat": "חפש חבר, צור קבוצה חדשה או בחר צ'אט.",
-    "recommendedGroups": "קבוצות מומלצות",
     "selectAGroup": "בחר קבוצה לתצוגה מקדימה או להצטרף אליה.",
     "newChat": "שיחה חדשה",
     "newGroup": "קבוצה חדשה",
@@ -248,7 +245,8 @@
         "welcomeTo": "ברוך הבא ל ...",
         "blurbPartOne": "אפליקציית צ'אט מאובטחת, אינטואיטיבית, מבוזרת פועלת כולה",
         "blurbPartTwo": " - הבלוקצ'יין הראשון בעולם בקנה מידה אינטרנטי. קרא עוד",
-        "signIn": "להתחבר"
+        "signIn": "להתחבר",
+        "signInOrRegister": "היכנס או הירשם"
     },
     "reactions": {
         "greaterThan99People": "99+ אנשים",
@@ -406,7 +404,8 @@
             "sendMessages": "לשלוח הודעות",
             "reactToMessages": "להגיב להודעות",
             "inviteUsers": "להזמין משתמשים",
-            "notPermitted": "אינך מורשה {permission}"
+            "notPermitted": "אינך מורשה {permission}",
+            "replyInThread": "תשובה בשרשור"
         },
         "advanced": "מִתקַדֵם",
         "invite": {
@@ -538,5 +537,18 @@
         "reply": "תשובה",
         "lastMessage": "(הודעה אחרונה {date})",
         "nreplies": "{number} {replies} {message}"
-    }
+    },
+    "noChatsAvailable": "אין צ'אטים זמינים!",
+    "invitedUsers": "משתמשים מוזמנים",
+    "hotGroups": "קבוצות לוהטות",
+    "showHotGroups": "תראה לי כמה קבוצות חמות",
+    "noHotGroups": "אין קבוצות לוהטות 😭",
+    "pinChat": {
+        "limitExceeded": "אתה יכול להצמיד רק עד {limit} צ'אטים",
+        "failed": "הצמדת הצ'אט נכשלה - נסה מאוחר יותר",
+        "unpinFailed": "ביטול ההצמדה של הצ'אט נכשל - נסה מאוחר יותר",
+        "menuItem": "הצמד צ'אט",
+        "unpinMenuItem": "בטל את ההצמדה של הצ'אט"
+    },
+    "readOnlyThread": "השרשור הזה הוא לקריאה בלבד"
 }

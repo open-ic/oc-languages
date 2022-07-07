@@ -48,8 +48,6 @@
     "account": "アカウント",
     "whatsHot": "何がｷﾃｲﾙ？",
     "notInterested": "興味なし",
-    "recommendSomething": "いくつかのグループを推薦する",
-    "noRecommendations": "おすすめはありません 😭",
     "checkBackLater": "後でもう一度お試しください. ",
     "refresh": "リフレッシュ",
     "goHome": "ホーム",
@@ -93,7 +91,6 @@
     "change": "変更",
     "noChatSelected": "現在選択されているチャットはありません",
     "selectAChat": "友達を検索したり、新しいグループを作ったり、チャットを選択することができます",
-    "recommendedGroups": "おすすめのグループ",
     "selectAGroup": "プレビューまたは参加するグループを選択する",
     "newChat": "新規チャット",
     "newGroup": "新規グループ",
@@ -233,7 +230,8 @@
         "welcomeTo": "ようこそ...",
         "blurbPartOne": "のみで動作する安全で直感的な分散型チャットアプリです。 ",
         "blurbPartTwo": " - 世界初のインターネットスケールブロックチェーン 続きを読む ",
-        "signIn": "サインイン"
+        "signIn": "サインイン",
+        "signInOrRegister": "サインインまたは登録"
     },
     "reactions": {
         "greaterThan99People": "99名以上",
@@ -394,7 +392,8 @@
             "sendMessages": "メッセージを送る",
             "reactToMessages": "メッセージに反応する",
             "inviteUsers": "ユーザーを招待する",
-            "notPermitted": "{permission}は許可されていません"
+            "notPermitted": "{permission}は許可されていません",
+            "replyInThread": "スレッドで返信"
         },
         "advanced": "高度",
         "invite": {
@@ -540,5 +539,18 @@
         "reply": "返事",
         "lastMessage": "（最後のメッセージ{date}）",
         "nreplies": "{number} {replies} {message}"
-    }
+    },
+    "noChatsAvailable": "チャットはありません！",
+    "invitedUsers": "招待されたユーザー",
+    "hotGroups": "ホットグループ",
+    "showHotGroups": "ホットグループを見せて",
+    "noHotGroups": "ホットグループはありません😭",
+    "pinChat": {
+        "limitExceeded": "ピンナップできるのは{limit}チャットのみです",
+        "failed": "チャットの固定に失敗しました-後で試してください",
+        "unpinFailed": "チャットの固定を解除できませんでした-後で試してください",
+        "menuItem": "ピンチャット",
+        "unpinMenuItem": "チャットの固定を解除する"
+    },
+    "readOnlyThread": "このスレッドは読み取り専用です"
 }

@@ -48,8 +48,6 @@
     "account": "Account",
     "whatsHot": "Cosa c'è di nuovo?",
     "notInterested": "Non interessato",
-    "recommendSomething": "Consiglia alcuni gruppi",
-    "noRecommendations": "Nessun consiglio 😭",
     "checkBackLater": "Per favore riprova più tardi.",
     "refresh": "ricarica",
     "goHome": "Home",
@@ -93,7 +91,6 @@
     "change": "modifica",
     "noChatSelected": "Nessuna chat attualmente selezionata",
     "selectAChat": "Cerca un amico, crea un nuovo gruppo o seleziona una chat.",
-    "recommendedGroups": "Gruppi consigliati",
     "selectAGroup": "Seleziona un gruppo da visualizzare in anteprima o unirti.",
     "newChat": "Nuova chat",
     "newGroup": "Nuovo gruppo",
@@ -259,7 +256,8 @@
         "welcomeTo": "Benvenuto a ...",
         "blurbPartOne": "Un'app di chat sicura, intuitiva e decentralizzata che funziona interamente",
         "blurbPartTwo": " - la prima blockchain al mondo su scala Internet. Per saperne di più",
-        "signIn": "Registrazione"
+        "signIn": "Registrazione",
+        "signInOrRegister": "Accedi o Registrati"
     },
     "reactions": {
         "greaterThan99People": "99+ persone",
@@ -394,7 +392,8 @@
             "sendMessages": "Manda messaggi",
             "reactToMessages": "reagire ai messaggi",
             "inviteUsers": "invitare gli utenti",
-            "notPermitted": "Non sei autorizzato a {permission}"
+            "notPermitted": "Non sei autorizzato a {permission}",
+            "replyInThread": "Rispondi nel thread"
         },
         "advanced": "Avanzate",
         "invite": {
@@ -540,5 +539,18 @@
         "reply": "rispondere",
         "lastMessage": "(ultimo messaggio {date})",
         "nreplies": "{number} {replies} {message}"
-    }
+    },
+    "noChatsAvailable": "Nessuna chat disponibile!",
+    "invitedUsers": "Utenti invitati",
+    "hotGroups": "Gruppi caldi",
+    "showHotGroups": "Mostrami alcuni gruppi caldi",
+    "noHotGroups": "Nessun gruppo caldo 😭",
+    "pinChat": {
+        "limitExceeded": "Puoi bloccare solo le chat di {limit}",
+        "failed": "Impossibile bloccare la chat. Riprova più tardi",
+        "unpinFailed": "Impossibile sbloccare la chat. Riprova più tardi",
+        "menuItem": "Appunta la chat",
+        "unpinMenuItem": "Sblocca la chat"
+    },
+    "readOnlyThread": "Questo thread è di sola lettura"
 }

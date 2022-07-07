@@ -45,8 +45,6 @@
     "account": "Tài khoản",
     "whatsHot": "Nhóm đang HOT🔥",
     "notInterested": "Không cần chú ý",
-    "recommendSomething": "Giới thiệu Nhóm",
-    "noRecommendations": "Không tìm thấy giới thiệu nào 😫",
     "checkBackLater": "Xin vui lòng thử lại",
     "refresh": "Tải lại",
     "goHome": "Trang chủ",
@@ -89,7 +87,6 @@
     "change": "thay đổi",
     "noChatSelected": "Hiện không có cuộc trò chuyện nào được chọn",
     "selectAChat": "Tìm kiếm bạn, tạo nhóm mới hoặc chọn một cuộc trò chuyện",
-    "recommendedGroups": "Các nhóm được đề xuất",
     "selectAGroup": "Chọn một nhóm để xem trước hoặc tham gia",
     "newChat": "Cuộc trò truyện mới",
     "newGroup": "Nhóm mới",
@@ -255,7 +252,8 @@
         "welcomeTo": "Chào mừng bạn đến với ...",
         "blurbPartOne": "Một ứng dụng trò chuyện phi tập trung, trực quan, an toàn chạy hoàn toàn trên ",
         "blurbPartTwo": " - một blockchain với quy mô internet đầu tiên trên thế giới. Tìm hiểu thêm ",
-        "signIn": "Đăng nhập"
+        "signIn": "Đăng nhập",
+        "signInOrRegister": "Đăng nhập hoặc Đăng ký"
     },
     "reactions": {
         "greaterThan99People": "99+ người dùng",
@@ -395,7 +393,8 @@
             "sendMessages": "gửi tin nhắn",
             "reactToMessages": "phản ứng với tin nhắn",
             "inviteUsers": "mời người dùng",
-            "notPermitted": "Bạn không được phép {permission}"
+            "notPermitted": "Bạn không được phép {permission}",
+            "replyInThread": "Trả lời trong chuỗi"
         },
         "advanced": "Trình độ cao",
         "invite": {
@@ -541,5 +540,18 @@
         "reply": "Đáp lại",
         "lastMessage": "(tin nhắn cuối cùng {date})",
         "nreplies": "{number} {replies} {message}"
-    }
+    },
+    "noChatsAvailable": "Không có cuộc trò chuyện nào!",
+    "invitedUsers": "Người dùng được mời",
+    "hotGroups": "Nhóm nóng",
+    "showHotGroups": "Cho tôi xem một số nhóm nóng",
+    "noHotGroups": "Không có nhóm nóng 😭",
+    "pinChat": {
+        "limitExceeded": "Bạn chỉ có thể ghim tối đa {limit} cuộc trò chuyện",
+        "failed": "Không thể ghim cuộc trò chuyện - vui lòng thử lại sau",
+        "unpinFailed": "Không thể bỏ ghim cuộc trò chuyện - vui lòng thử lại sau",
+        "menuItem": "Ghim cuộc trò chuyện",
+        "unpinMenuItem": "Bỏ ghim cuộc trò chuyện"
+    },
+    "readOnlyThread": "Chủ đề này ở chế độ chỉ đọc"
 }
